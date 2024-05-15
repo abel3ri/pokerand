@@ -1,10 +1,11 @@
 import "./App.css";
+import Pokemon from "./components/Pokemon";
 
 function App() {
   return (
     <>
       <div>
-        <h1>Poke Rand!</h1>
+        <Pokemon />
       </div>
     </>
   );
